@@ -1,0 +1,36 @@
+body{
+	font-size:30px;
+	text-align:left;
+	animation:bgchange 20s ease infinite;
+}
+#plus{
+	height:115px;
+	margin-top:-50px;
+	margin-bottom:-25px;
+}
+input{
+	height:50px;
+	width:262px;
+	margin-bottom:10px;
+	font-weight:bold;
+	font-size:40px;
+}
+button{
+	font-size:25px;
+	width:50px;
+	height:50px;
+	margin-bottom:10px;
+}
+
+table{
+	margin-top:-130px;
+}
+
+@keyframes bgchange{
+	0% {background:#fcd2d2;}
+	25% {background:#fcecd2;}
+	50% {background:#fafcd2;}
+	75% {background:#d2fce1;}
+	90% {background:#d2eafc;}
+	100% {background:#fcd2d2;}
+}
